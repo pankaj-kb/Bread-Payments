@@ -22,7 +22,7 @@ nav {
     height: 200px;
     justify-content: center;
     align-items: center;
-    gap: 800px;
+    gap: 50%;
 }
 
 nav img {
@@ -60,7 +60,7 @@ nav img:hover {
 .hero {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     gap: 50px;
