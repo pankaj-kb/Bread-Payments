@@ -64,6 +64,8 @@ nav img:hover {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    position: relative;
+    bottom: 50px;
 }
 
 .hero h1 {
@@ -107,7 +109,7 @@ nav img:hover {
 
 /* Mobile Application */
 
-.mobile-app {
+.bills {
     background-image: url(../Assets/Illustrations/6561278.jpg);
     height: 90vh;
     display: flex;
@@ -115,11 +117,11 @@ nav img:hover {
     align-items: center;
 }
 
-.mobile-app img {
+.bills img {
     height: 50%;
 }
 
-.mobile-app-right {
+.bills-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +130,7 @@ nav img:hover {
     gap: 15px;
 }
 
-.mobile-app h1 {
+.bills h1 {
     /* color: #F5E2E7; */
     color: #F8F8F8;
     font-size: 100px;
@@ -137,14 +139,14 @@ nav img:hover {
     width: 80%;
 }
 
-.mobile-app h5 {
+.bills h5 {
     color: #F8F8F8;
     font-size: 25px;
     position: relative;
     left: 20px;
 }
 
-.mobile-app p {
+.bills p {
     color: #F8F8F8;
     font-size: 18px;
     font-weight: 500;
@@ -155,8 +157,72 @@ nav img:hover {
     top: 20px;
 }
 
-.mobile-app button {
+.bills button {
     background-color: #F8F8F8;
+    color: #101010;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    width: 300px;
+}
+
+/* Reward Section */
+
+.rewards {
+    background-image: url(../Assets/Illustrations/18776276_6016317.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: brightness(0.5); */
+}
+
+.rewards img {
+    height: 45%;
+}
+
+.rewards-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    gap: 15px;
+}
+
+.rewards h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+    width: 80%;
+}
+
+.rewards h5 {
+    /* color: #F8F8F8; */
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+
+.rewards p {
+    /* color: #F8F8F8; */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    width: 70%;
+    line-height: 150%;
+    position: relative;
+    top: 20px;
+}
+
+.rewards button {
+    background-color: #ffffff;
     color: #101010;
     font-size: 25px;
     font-weight: 600;
