@@ -99,7 +99,8 @@ nav img:hover {
     transform: translate(-50%, -50%);
     visibility: hidden;
 }
-.hero button:hover::before{
+
+.hero button:hover::before {
     visibility: visible;
 }
 
@@ -107,7 +108,7 @@ nav img:hover {
     color: transparent;
 }
 
-/* Mobile Application */
+/* Bills Application */
 
 .bills {
     background-image: url(../Assets/Illustrations/6561278.jpg);
@@ -230,5 +231,65 @@ nav img:hover {
     border-radius: 50px;
     position: relative;
     top: 50px;
+    width: 300px;
+}
+
+/* Security */
+
+.security {
+    background-image: url(../Assets/Illustrations/pexels-matej-1074882.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* filter: brightness(0.5); */
+    gap: 20px;
+}
+
+.security h1 {
+    /* color: #ffffff; */
+    color: #F8F8F8;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+    width: 30%;
+    text-align: center;
+}
+
+.security h5 {
+    color: #F8F8F8;
+    /* color: #ffffff; */
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    /* width: 50%; */
+    text-align: center;
+}
+
+.security p {
+    color: #F8F8F8;
+    /* color: #ffffff; */
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    width: 30%;
+    line-height: 150%;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.security button {
+    background-color: #F8F8F8;
+    color: #101010;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 60px;
     width: 300px;
 }
