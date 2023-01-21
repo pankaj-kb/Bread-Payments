@@ -357,3 +357,69 @@ nav img:hover {
     top: 50px;
     width: 300px;
 }
+
+/* Invite */
+
+.invite {
+    background-image: url(../Assets/Illustrations/pexels-steve-johnson-3518622.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: brightness(0.5); */
+    background-size: cover;
+    background-position:center;
+}
+
+.invite img {
+    height: 45%;
+}
+
+.invite-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    gap: 15px;
+}
+
+.invite h1 {
+    color: #F8F8F8;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+    width: 70%;
+}
+
+.invite h5 {
+    /* color: #F8F8F8; */
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+
+.invite p {
+    /* color: #F8F8F8; */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    width: 70%;
+    line-height: 150%;
+    position: relative;
+    top: 20px;
+}
+
+.invite button {
+    background-color: #ffffff;
+    color: #101010;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    width: 300px;
+}
